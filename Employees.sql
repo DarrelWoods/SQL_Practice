@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT [EmployeeKey]
+      ,[FirstName]
+      ,[LastName]
+      ,[Title]
+      ,[HireDate]
+      ,[BirthDate]
+      ,[Gender]
+      ,[BaseRate]
+      ,[DepartmentName]
+  FROM [AdventureWorksDW2019].[dbo].[DimEmployee]
